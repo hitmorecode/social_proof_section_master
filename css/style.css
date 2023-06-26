@@ -26,10 +26,11 @@ body {
 
 .container {
   width: 327px;
-  background-color: aqua;
-  height: 1530px;
+  /* background-color: aqua; */
+  height: auto;
   margin-inline: auto;
-  padding: 82px 10px;
+  padding: 80px 0;
+  /* padding: 82px 10px; */
 }
 
 h1 {
@@ -49,6 +50,59 @@ h1,
 
 .rate {
   width: 327px;
-  height: 72px;
+  height: 75px;
   background-color: var(--primary-light-grayish-magenta);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.rate p {
+  font-size: 1.7rem;
+  font-weight: var(--font-weight-500);
+  color: var(--primary-very-dark-magenta);
+}
+
+.review-card {
+  width: 327px;
+  height: 248px;
+  background-color: var(--primary-very-dark-magenta);
+  color: var(--primary-White);
+  border-radius: 10px;
+  padding: 40px 29px;
+  margin-bottom: 16px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.user-info p:nth-child(1) {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-400);
+}
+
+.user-info p:nth-child(2) {
+  font-size: 1.7rem;
+  color: var(--primary-soft-pink);
+  font-weight: var(--font-weight-400);
+}
+
+.review {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
 }
