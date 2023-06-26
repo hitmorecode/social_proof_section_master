@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-very-dark-magenta: hsl(300, 43%, 22%);
+  --primary-soft-pink: hsl(333, 80%, 67%);
+  --primary-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --primary-light-grayish-magenta: hsl(300, 24%, 96%);
+  --primary-White: hsl(0, 0%, 100%);
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  font-size:62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "League Spartan", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 327px;
+  background-color: aqua;
+  height: 1530px;
+  margin-inline: auto;
+  padding: 82px 10px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--primary-very-dark-magenta);
+}
+
+.left-column p {
+  font-size: 1.8rem;
+  color: var(--primary-dark-grayish-magenta);
+}
+
+h1,
+.left-column p {
+  text-align: center;
+}
+
+.rate {
+  width: 327px;
+  height: 72px;
+  background-color: var(--primary-light-grayish-magenta);
+}
