@@ -22,6 +22,9 @@ body {
   font-size: 1.6rem;
   font-family: "League Spartan", Arial, Helvetica, sans-serif;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -112,4 +115,61 @@ h1,
 .review {
   font-size: 1.6rem;
   line-height: 2.1rem;
+}
+
+@media only screen and (min-width: 1110px) {
+  .container {
+    width: 1110px;
+  }
+
+  .description-rating {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description-rating {
+    margin-bottom: 30px;
+  }
+
+  .left-column h1 {
+    font-size: 5.4rem;
+    width: 362px;
+    text-align: left;
+  }
+
+  .left-column p {
+    width: 433px;
+    text-align: left;
+  }
+
+  .right-column {
+    padding-top: 28px;
+  }
+
+  .rate:nth-child(1) {
+    transform: translateX(-96px);
+  }
+
+  .rate:nth-child(2) {
+    transform: translateX(-48px);
+  }
+
+  .reviews-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .review-card {
+    width: 350px;
+    height: 234px;
+  }
+
+  .review-card:nth-child(2) {
+    transform: translateY(16px)
+  }
+
+  .review-card:nth-child(3) {
+    transform: translateY(32px);
+  }
+
 }
