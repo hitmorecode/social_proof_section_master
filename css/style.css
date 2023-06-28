@@ -42,6 +42,8 @@ h1 {
 .left-column p {
   font-size: 1.8rem;
   color: var(--primary-dark-grayish-magenta);
+  margin-bottom: 48px;
+  line-height: 2.2rem;
 }
 
 h1,
@@ -58,8 +60,12 @@ h1,
   align-items: center;
   justify-content: center;
   gap: 7px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   border-radius: 10px;
+}
+
+.rate:last-child {
+  margin-bottom: 49px;
 }
 
 .rate p {
