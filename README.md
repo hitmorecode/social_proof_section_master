@@ -45,11 +45,6 @@ Users should be able to:
 - Flexbox
 
 
-### What I learned
-
-I was struggling placing the background svg image on the page. The solution was very simple, change background-size from cover to contain. It took me awhile because I've never used background-size: contain, didn't even knew it existed.
-
-
 ### Useful resources
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me getting started with flexbox. I'd recommend it to anyone still learning this concept.
