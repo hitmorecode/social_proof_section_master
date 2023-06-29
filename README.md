@@ -56,7 +56,7 @@ I was struggling placing the background svg image on the page. The solution was 
 - [Colt Steele - Flexbox tutorial](https://www.youtube.com/watch?v=qZv-rNx0jEA) - This video helped me understand flexbox. If you are struggling with flexbox like I did, I recommend this video.
 - [codeSTACKr - Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0) - This is a great video tutorial on how CSS grid works and how to use it.
 
--[Wes Bos - CSS Grid Course](https://www.youtube.com/watch?v=T-slCsOrLcc) - This is a series of CSS grid tutorials. It's devided in 25 parts. For those who really want to learn CSS grid, I recommend these series.
+- [Wes Bos - CSS Grid Course](https://www.youtube.com/watch?v=T-slCsOrLcc) - This is a series of CSS grid tutorials. It's devided in 25 parts. For those who really want to learn CSS grid, I recommend these series.
 
 
 ## Author
