@@ -146,6 +146,11 @@ h1,
 
   .rate {
     flex-direction: row;
+    width: 380px;
+  }
+
+  .stars {
+    margin-right: 30px;
   }
 
   .rate:nth-child(1) {
