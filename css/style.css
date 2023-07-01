@@ -144,6 +144,10 @@ h1,
     padding-top: 28px;
   }
 
+  .rate {
+    flex-direction: row;
+  }
+
   .rate:nth-child(1) {
     transform: translateX(-96px);
   }
